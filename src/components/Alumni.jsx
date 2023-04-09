@@ -23,7 +23,7 @@ export const Alumni = () => {
     "https://media.cnn.com/api/v1/images/stellar/prod/220222035049-01-praggnanandhaa-chess-portrait-file-2019.jpg?q=h_2747,w_4128,x_0,y_0",
   ];
   return (
-    <div className="h-[100vh] items-center py-6" id="alumni">
+    <div className="h-[95vh] items-center py-6" id="alumni">
       <p className="text-l flex justify-center text-2xl font-serif font-semibold">
         Check out some of the best students that went through our courses.
       </p>
