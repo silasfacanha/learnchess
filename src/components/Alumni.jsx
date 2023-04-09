@@ -23,16 +23,16 @@ export const Alumni = () => {
     "https://media.cnn.com/api/v1/images/stellar/prod/220222035049-01-praggnanandhaa-chess-portrait-file-2019.jpg?q=h_2747,w_4128,x_0,y_0",
   ];
   return (
-    <div className="h-[95vh] items-center py-6" id="alumni">
-      <p className="text-l flex justify-center text-2xl font-serif font-semibold">
+    <div className="h-[100vh] items-center my-6" id="alumni">
+      <p className=" flex justify-center text-base md:text-lg font-serif font-semibold ">
         Check out some of the best students that went through our courses.
       </p>
-      <div className="flex justify-center items-center  h-[90%]">
+      <div className="flex justify-center items-center">
         <BsChevronCompactLeft onClick={handleIndexBackwards} size={40} />
-        <div className="rounded-2xl  flex items-center duration-500  h-[80%] w-[80%] ">
+        <div className="rounded-2xl duration-500 w-[80%] ">
           <div
             style={{ backgroundImage: `url(${students[currentIndex]})` }}
-            className="h-[90%] w-[100%] rounded-2xl bg-center bg-cover  duration-500"
+            className="h-[400px] w-[100%] rounded-2xl bg-center bg-cover  duration-500"
           ></div>
         </div>
 
