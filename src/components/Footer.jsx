@@ -2,18 +2,26 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="w-full bg-black text-white " id="contact">
-      <ul>
-        {" "}
-        <li>s</li>
-        <li>i</li>
-        <li>i</li>
-        <li>i</li>
-        <li>i</li>
-        <li>i</li>
-        <li>i</li>
-        <li>i</li>
-      </ul>
+    <div
+      className="w-full bg-black text-white text-sm md:text-base p-3"
+      id="contact"
+    >
+      <div className="flex justify-between">
+        <ul>
+          <li>FAQs</li>
+          <li>Terms and Conditions</li>
+          <li>Contact</li>
+          <li>Privacy Policy</li>
+          <li>Learn More</li>
+        </ul>
+        <ul>
+          <li>Get Help</li>
+          <li>Blog</li>
+          <li>Copyright</li>
+          <li>Awards</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
     </div>
   );
 };

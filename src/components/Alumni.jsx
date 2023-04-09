@@ -24,12 +24,12 @@ export const Alumni = () => {
   ];
   return (
     <div className="h-[100vh] items-center my-6" id="alumni">
-      <p className=" flex justify-center text-base md:text-lg font-serif font-semibold ">
+      <p className="p-2 flex justify-center text-base md:text-2xl font-serif font-semibold ">
         Check out some of the best students that went through our courses.
       </p>
       <div className="flex justify-center items-center">
         <BsChevronCompactLeft onClick={handleIndexBackwards} size={40} />
-        <div className="rounded-2xl duration-500 w-[80%] ">
+        <div className="rounded-2xl duration-500 w-[80%] p-4">
           <div
             style={{ backgroundImage: `url(${students[currentIndex]})` }}
             className="h-[400px] w-[100%] rounded-2xl bg-center bg-cover  duration-500"

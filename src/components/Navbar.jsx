@@ -35,7 +35,7 @@ export const Navbar = () => {
             <li className="p-4 cursor-pointer">alumni</li>
           </Link>
           <Link to="#contact" smooth>
-            <li className="p-4 cursor-pointer">contact</li>
+            <li className="p-4 cursor-pointer">more</li>
           </Link>
         </ul>
         <div onClick={handleNav} className="block p-4 md:hidden">
@@ -51,15 +51,30 @@ export const Navbar = () => {
       >
         <ul>
           <li className="p-4 border-b-2 flex justify-between items-center border-green-700">
-            Home{" "}
+            <Link to="#home" smooth>
+              <div onClick={handleNav}>Home</div>
+            </Link>
             <div className="text-green-800">
               {" "}
               <AiOutlineClose size={20} onClick={handleNav} />{" "}
             </div>
           </li>
-          <li className="p-4 border-b-2 border-green-700">Learn</li>
-          <li className="p-4 border-b-2 border-green-700">Alumni</li>
-          <li className="p-4 border-b-2 border-green-700">Contact</li>
+
+          <li className="p-4 border-b-2 border-green-700">
+            <Link to="#learn" smooth>
+              <div onClick={handleNav}>Learn</div>
+            </Link>
+          </li>
+          <li className="p-4 border-b-2 border-green-700">
+            <Link to="#alumni" smooth>
+              <div onClick={handleNav}> Alumni </div>
+            </Link>
+          </li>
+          <li className="p-4 border-b-2 border-green-700">
+            <Link to="#contact" smooth>
+              <div onClick={handleNav}> Contact</div>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
