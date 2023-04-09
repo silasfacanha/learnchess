@@ -9,7 +9,7 @@ import { Card } from "./Card.jsx";
 
 export const Learn = () => {
   return (
-    <div className="h-[100vh] items-center">
+    <div className="h-[100vh] items-center py-6">
       <p className="text-l p-4 flex justify-center text-2xl font-serif font-semibold">
         We are going to teach you how to win Chess matches with a great and
         diverse routine of practice, study, and analysis.
