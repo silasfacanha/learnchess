@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({ image, caption }) {
+export const Card = ({ image, caption }) => {
   return (
     <div className="flex  m-2 h-[20%] w-[27%] ">
       <div className=" bg-white text-black border-green-800 object-contain rounded-lg ">
@@ -11,6 +11,4 @@ function Card({ image, caption }) {
       </div>
     </div>
   );
-}
-
-export default Card;
+};

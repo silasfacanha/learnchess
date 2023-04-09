@@ -5,8 +5,9 @@ import Study from "../assets/Study.jpg";
 import Knights from "../assets/Knights.jpg";
 import Coaching from "../assets/Coaching.jpg";
 import Analysis from "../assets/Analysis.jpg";
-import Card from "./Card";
-const Learn = () => {
+import { Card } from "./Card.jsx";
+
+export const Learn = () => {
   return (
     <div className="h-[100vh] items-center">
       <p className="text-l p-4 flex justify-center text-2xl font-serif font-semibold">
@@ -32,7 +33,7 @@ const Learn = () => {
         />
         <Card
           image={Coaching}
-          caption="Engage with colleagues to discuss chess-related themes."
+          caption="Engage with colleagues to discuss chess themes."
         />
         <Card
           image={Analysis}
@@ -42,5 +43,3 @@ const Learn = () => {
     </div>
   );
 };
-
-export default Learn;

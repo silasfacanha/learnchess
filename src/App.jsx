@@ -1,16 +1,18 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
-import Learn from "./components/Learn";
-import Alumni from "./components/Alumni";
+import { Navbar } from "./components/Navbar.jsx";
+import { Hero } from "./components/Hero.jsx";
+import { Learn } from "./components/Learn.jsx";
+import { Alumni } from "./components/Alumni.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Learn />
+      <Learn id="learn" />
       <Alumni />
+      <Footer />
     </div>
   );
 }
