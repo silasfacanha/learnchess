@@ -32,7 +32,7 @@ export const Alumni = () => {
         <div className="rounded-2xl duration-500 w-[80%] p-4">
           <div
             style={{ backgroundImage: `url(${students[currentIndex]})` }}
-            className="h-[600px] w-[100%] rounded-2xl bg-center bg-cover  duration-500"
+            className="h-[500px] md:h-[600px] w-[100%] rounded-2xl bg-center bg-cover  duration-500"
           ></div>
         </div>
 

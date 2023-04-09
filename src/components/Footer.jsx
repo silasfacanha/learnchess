@@ -6,7 +6,7 @@ export const Footer = () => {
       className="w-full bg-black text-white text-sm md:text-base p-3"
       id="contact"
     >
-      <div className="flex justify-between">
+      <div className="flex justify-around">
         <ul>
           <li>FAQs</li>
           <li>Terms and Conditions</li>
